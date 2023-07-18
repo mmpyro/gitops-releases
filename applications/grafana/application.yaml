@@ -8,7 +8,7 @@ spec:
   source:
     chart: grafana/grafana
     repoURL: "https://grafana.github.io/helm-charts"
-    targetRevision: 6.58.4
+    targetRevision: 5.8.16
     helm:
       releaseName: grafana
   destination:
