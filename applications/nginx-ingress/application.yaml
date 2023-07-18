@@ -7,8 +7,8 @@ spec:
   project: default
   source:
     chart: nginx-ingress
-    repoURL: oci://ghcr.io/nginxinc/charts/nginx-ingress
-    targetRevision: 0.18.0
+    repoURL: "https://kubernetes.github.io/ingress-nginx"
+    targetRevision: 4.7.1
     helm:
       releaseName: nginx-ingress
   destination:
