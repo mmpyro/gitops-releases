@@ -13,7 +13,7 @@ spec:
       releaseName: prometheus-operator
       version: v3
       valueFiles:
-        - "charts/prometheus/values.yaml"
+        - "$values/charts/prometheus/values.yaml"
   - repoURL: 'https://github.com/mmpyro/helmcharts.git'
     targetRevision: "HEAD"
     ref: values
